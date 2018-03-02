@@ -11,7 +11,8 @@
     "dev2": "echo 'run dev' & npm start",
     "dev": "npm start",
     "nodemon": "cd dist && nodemon --watch ../src -e ts,hbs --exec \"npm run load\"",
-    "load": "node server.js && npm run html"
+    "load": "node server.js && npm run html",
+    "nodemon2":"nodemon --watch ./src -e ts,hbs --exec \"npm run html && node dist/server.js\""
   },
   "author": "",
   "license": "ISC",
