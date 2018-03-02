@@ -1,0 +1,1 @@
+"html": "copyfiles src/**/*.html app/**/*.css dist/"
