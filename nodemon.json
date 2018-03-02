@@ -1,6 +1,0 @@
-{
-  "events": {
-    "start": "npm run html",
-    "restart": "npm run html"
-  }
-}
